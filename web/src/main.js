@@ -7,6 +7,9 @@ import './assets/css/global.css'
 import axios from 'axios'
 import { createPinia } from 'pinia'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+import Particles from 'particles.vue3'
+import 'animate.css/animate.min.css'
+import VueTilt from 'vue-tilt.js'
 
 import router from './router/index'
 
@@ -24,7 +27,9 @@ const pinia = createPinia()
 app
     .use(router)
     .use(ElementPlus)
+    .use(Particles)
     .use(pinia)
+    .use(VueTilt)
     .mount('#app')
 
 export default app

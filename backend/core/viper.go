@@ -27,7 +27,7 @@ func Viper() *viper.Viper {
 		//confPath := util.ReciveCmd()
 
 		//写死记得上线要关掉
-		v.AddConfigPath("C:\\Users\\86153\\OneDrive\\桌面\\develop\\TimeDeliver")
+		v.AddConfigPath("C:\\Users\\86153\\OneDrive\\桌面\\develop\\TimeDeliver\\backend")
 
 		v.SetConfigType("yaml")
 	case "Consul":

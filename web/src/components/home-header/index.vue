@@ -6,7 +6,6 @@
         mode="horizontal"
         :ellipsis="false"
         @select="handleSelect"
-        style="background: #141414;border: outset #373738;margin: auto"
     >
       <div class="flex-grow" />
       <el-menu-item index="1" style="color: #fff;">TimeDeliver</el-menu-item>
@@ -23,7 +22,23 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: alohabrush;
+  src: url("/font/AlohaBrush-DemoVersion-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .flex-grow {
   flex-grow: 1;
+}
+.home-page{
+  font-family: alohabrush;
+}
+.el-menu-demo{
+  background: #414243;
+  border: outset #373738;
+  margin: auto;
+  opacity:0.5;
 }
 </style>

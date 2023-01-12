@@ -73,8 +73,6 @@ export default {
     this.axios.defaults.withCredentials = true
   }
 }
-
-
 </script>
 
 <style>
@@ -89,10 +87,7 @@ export default {
   width:450px;
   padding:50px;
   background: rgba(0,0,0,.5);
-  /*背景颜色为黑色，透明度为0.8*/
   box-sizing:border-box;
-  /*box-sizing设置盒子模型的解析模式为怪异盒模型，
-  将border和padding划归到width范围内*/
   box-shadow: 0px 15px 25px rgba(0,0,0,.5);
   /*边框阴影  水平阴影0 垂直阴影15px 模糊25px 颜色黑色透明度0.5*/
   border-radius:15px;

@@ -9,12 +9,17 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.10",
+    "animate.css": "^4.1.1",
     "axios": "^1.2.1",
     "element-plus": "^2.2.27",
+    "particles.vue3": "^2.7.1",
     "pinia": "^2.0.28",
+    "tsparticles": "^2.7.1",
+    "tsparticles-preset-stars": "^2.7.1",
     "typescript": "^4.9.4",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vue-tilt.js": "^1.1.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
